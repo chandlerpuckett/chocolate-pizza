@@ -45,7 +45,7 @@ nav li {
 nav li a {
   text-decoration: none;
   float: right
-}
+} 
 
 #top-break {
   width: 900px;
@@ -59,4 +59,27 @@ main {
   width: 900px;
   margin: auto;
   margin-top: 60px;
+  overflow: hidden;
 }
+
+h1 {
+  margin-bottom: 0px;
+}
+
+h1 + div {
+  width: 900px;
+  height: 15px;
+  display: flex;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+div > p {
+  width: 900px;
+  margin-top: 0px;
+}
+
+#hero {
+  margin-top: 30px;
+}
+
