@@ -57,6 +57,7 @@ nav li a {
 
 main {
   width: 900px;
+  height: auto;
   margin: auto;
   margin-top: 60px;
   overflow: hidden;
@@ -83,3 +84,29 @@ div > p {
   margin-top: 30px;
 }
 
+section {
+  width: 900px;
+  height: auto;
+  margin-top: 35px;
+}
+
+main > section > p {
+  margin-top: 0px;
+  margin-bottom: 35px;
+  text-indent: 30px;
+  font-family: helvetica;
+  font-size: large;
+}
+
+#notebook {
+  padding-bottom: 45px;
+}
+
+/* ==================== FOOTER ==================== */
+
+footer {
+  display: flex;
+  align-content: center;
+  width: 900px;
+  height: auto;
+}
