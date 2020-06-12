@@ -105,22 +105,40 @@ main > section > p {
 /* ==================== FOOTER ==================== */
 
 footer {
-  overflow: hidden;
+  margin: auto;
   margin-top: 25px;
-  display: flex;
-}
-
-#author-tag {
   width: 900px;
-  height: 135px;
 }
 
-#author-tag > h3 {
+footer > img {
+  float: left;
+}
+
+footer div {
+  display: block;
+  float: left;
+  margin-left: 20px;
+  align-self: center;
+}
+
+footer h3 {
   width: 400px;
   height: fit-content;
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
-#author-tag > p {
-  width: auto;
+footer p {
+  width: 550px;
+  margin-top: 15px;
   height: fit-content;
+  float: left;
+  font-size: 18px;
+  align-self: center;
+}
+
+footer > #share {
+  display: flex;
+  float: right;
+  margin-top: 18px;
 }
