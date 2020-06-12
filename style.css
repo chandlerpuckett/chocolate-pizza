@@ -134,11 +134,27 @@ footer p {
   height: fit-content;
   float: left;
   font-size: 18px;
-  align-self: center;
 }
 
 footer > #share {
   display: flex;
   float: right;
   margin-top: 18px;
+}
+
+footer div:last-child {
+  display: block;
+  margin-top: 40px;
+  /* align-self: center; */
+}
+
+footer div:last-child > img {
+  margin-right: 100px;
+}
+
+footer div:last-child p {
+  text-align: center;
+  margin: 0px;
+  margin-top: 45px;
+  vertical-align: middle;
 }
