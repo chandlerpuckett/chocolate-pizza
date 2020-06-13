@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  /* outline: red dashed 1px; */
+}
+
+/* ==================== HEADER / NAV ==================== */
+
+header {
+  height: 125px;
+  width: 900px;
+  margin: auto;
+}
+
+nav {
+  width: 900px;
+}
+
+nav > div {
+  display: flex;
+  width: 450px;
+  height: 45px;
+  margin-top: 30px;
+  float: left;
+}
+
+nav > div > p {
+  display: flex;
+  align-self: center;
+  float: right;
+  margin-left: 10px;
+}
+
+nav > div > img + p {
+  font-family: Yellowtail;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+nav > div :last-child {
+  font-family: Arial;
+  color: gray;
+  font-size: 10px;
+  letter-spacing: -1px;
+  word-spacing: 4px;
+  margin-top: 40px;
+  margin-left: -400px;
+}
+
+
+nav ul {
+  margin-top: 45px;
+  float: right;
+}
+
+nav li {
+  margin-left: 4px;
+  line-height: 10px;
+  float: right;
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  float: right
+} 
+
+#top-break {
+  background-image: url(img/break-repeat-image.png);
+  width: 900px;
+  height: 15px;
+  margin-top: 25px;
+}
+
+/* ==================== MAIN ==================== */
+
+main {
+  width: 900px;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Oswald;
+  font-size: 42px;
+  letter-spacing: -1px;
+}
+
+h1 + div {
+  width: 900px;
+  height: 15px;
+  display: flex;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+div > p {
+  width: 900px;
+  margin-top: 0px;
+}
+
+#hero {
+  margin-top: 30px;
+}
+
+section {
+  width: 900px;
+  height: auto;
+  margin-top: 35px;
+}
+
+main > section > p {
+  margin-top: 0px;
+  margin-bottom: 35px;
+  text-indent: 30px;
+  font-family: helvetica;
+  font-size: large;
+  color: rgb(99, 98, 98);
+}
+
+#notebook {
+  padding-bottom: 35px;
+}
+
+#bottom-break {
+  background-image: url(img/break-repeat-image.png);
+  width: 900px;
+  height: 15px;
+  margin-top: 0px;
+}
+
+
+/* ==================== FOOTER ==================== */
+
+footer {
+  margin: auto;
+  margin-top: 25px;
+  width: 900px;
+}
+
+footer > img {
+  float: left;
+}
+
+footer div {
+  display: block;
+  float: left;
+  margin-left: 20px;
+  align-self: center;
+}
+
+footer h3 {
+  width: 400px;
+  height: fit-content;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+footer p {
+  width: 550px;
+  margin-top: 15px;
+  height: fit-content;
+  float: left;
+  font-size: 18px;
+}
+
+footer > #share {
+  display: flex;
+  float: right;
+  margin-top: 18px;
+}
+
+footer div:last-child {
+  display: block;
+  margin-top: 40px;
+  /* align-self: center; */
+}
+
+footer div:last-child > img {
+  margin-right: 100px;
+}
+
+footer div:last-child p {
+  text-align: center;
+  margin: 0px;
+  margin-top: 45px;
+  vertical-align: middle;
+}
